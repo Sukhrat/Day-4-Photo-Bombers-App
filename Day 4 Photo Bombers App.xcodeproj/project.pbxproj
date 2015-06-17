@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5109A27BF3BB6D1D21AEF2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925AB4B1C76F9AD5C96768C /* libPods.a */; };
 		EE99BE861B313D7300C8F4DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE851B313D7300C8F4DE /* main.m */; };
 		EE99BE891B313D7300C8F4DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE881B313D7300C8F4DE /* AppDelegate.m */; };
 		EE99BE8C1B313D7300C8F4DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE8B1B313D7300C8F4DE /* ViewController.m */; };
@@ -29,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C4EFB93CD278FBA404787E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9925AB4B1C76F9AD5C96768C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6B184C1B317FA000160A46 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = podfile; path = "Day 4 Photo Bombers App/podfile"; sourceTree = "<group>"; };
 		EE99BE801B313D7300C8F4DE /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE99BE841B313D7300C8F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE99BE851B313D7300C8F4DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		EE99BEA91B31418D00C8F4DE /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		EE99BEAA1B31418D00C8F4DE /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		EE99BEAC1B31448300C8F4DE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
+		F0A4994209B2C547D9DE10F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5109A27BF3BB6D1D21AEF2F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +71,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03767AA629BD15BAA28C2D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9925AB4B1C76F9AD5C96768C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F48DBD4CF948AF501306C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0A4994209B2C547D9DE10F5 /* Pods.debug.xcconfig */,
+				4C4EFB93CD278FBA404787E9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE99BE771B313D7300C8F4DE = {
 			isa = PBXGroup;
 			children = (
+				EE6B184C1B317FA000160A46 /* podfile */,
 				EE99BE821B313D7300C8F4DE /* Day 4 Photo Bombers App */,
 				EE99BE9C1B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */,
 				EE99BE811B313D7300C8F4DE /* Products */,
+				47F48DBD4CF948AF501306C3 /* Pods */,
+				03767AA629BD15BAA28C2D44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE99BEA31B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers App" */;
 			buildPhases = (
+				E915ABC990AD1E4FAD64BDB1 /* Check Pods Manifest.lock */,
 				EE99BE7C1B313D7300C8F4DE /* Sources */,
 				EE99BE7D1B313D7300C8F4DE /* Frameworks */,
 				EE99BE7E1B313D7300C8F4DE /* Resources */,
+				B91082AF2EE79A46EB42AA7E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +250,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B91082AF2EE79A46EB42AA7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E915ABC990AD1E4FAD64BDB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE99BE7C1B313D7300C8F4DE /* Sources */ = {
@@ -355,6 +416,7 @@
 		};
 		EE99BEA41B313D7300C8F4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A4994209B2C547D9DE10F5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
@@ -365,6 +427,7 @@
 		};
 		EE99BEA51B313D7300C8F4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4EFB93CD278FBA404787E9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
@@ -426,6 +489,7 @@
 				EE99BEA51B313D7300C8F4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE99BEA61B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers AppTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +498,7 @@
 				EE99BEA81B313D7300C8F4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
