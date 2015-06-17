@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE99BE861B313D7300C8F4DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE851B313D7300C8F4DE /* main.m */; };
+		EE99BE891B313D7300C8F4DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE881B313D7300C8F4DE /* AppDelegate.m */; };
+		EE99BE8C1B313D7300C8F4DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE8B1B313D7300C8F4DE /* ViewController.m */; };
+		EE99BE8F1B313D7300C8F4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE99BE8D1B313D7300C8F4DE /* Main.storyboard */; };
+		EE99BE911B313D7300C8F4DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE99BE901B313D7300C8F4DE /* Images.xcassets */; };
+		EE99BE941B313D7300C8F4DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE99BE921B313D7300C8F4DE /* LaunchScreen.xib */; };
+		EE99BEA01B313D7300C8F4DE /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BE9F1B313D7300C8F4DE /* Day_4_Photo_Bombers_AppTests.m */; };
+		EE99BEAB1B31418D00C8F4DE /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99BEAA1B31418D00C8F4DE /* PhotoCollectionViewCell.m */; };
+		EE99BEAD1B31448300C8F4DE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE99BEAC1B31448300C8F4DE /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE99BE9A1B313D7300C8F4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE99BE781B313D7300C8F4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE99BE7F1B313D7300C8F4DE;
+			remoteInfo = "Day 4 Photo Bombers App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE99BE801B313D7300C8F4DE /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE99BE841B313D7300C8F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE99BE851B313D7300C8F4DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE99BE871B313D7300C8F4DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE99BE881B313D7300C8F4DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE99BE8A1B313D7300C8F4DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE99BE8B1B313D7300C8F4DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE99BE8E1B313D7300C8F4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE99BE901B313D7300C8F4DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE99BE931B313D7300C8F4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE99BE991B313D7300C8F4DE /* Day 4 Photo Bombers AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 4 Photo Bombers AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE99BE9E1B313D7300C8F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE99BE9F1B313D7300C8F4DE /* Day_4_Photo_Bombers_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_4_Photo_Bombers_AppTests.m; sourceTree = "<group>"; };
+		EE99BEA91B31418D00C8F4DE /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		EE99BEAA1B31418D00C8F4DE /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		EE99BEAC1B31448300C8F4DE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE99BE7D1B313D7300C8F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99BE961B313D7300C8F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE99BE771B313D7300C8F4DE = {
+			isa = PBXGroup;
+			children = (
+				EE99BE821B313D7300C8F4DE /* Day 4 Photo Bombers App */,
+				EE99BE9C1B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */,
+				EE99BE811B313D7300C8F4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE99BE811B313D7300C8F4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE99BE801B313D7300C8F4DE /* Day 4 Photo Bombers App.app */,
+				EE99BE991B313D7300C8F4DE /* Day 4 Photo Bombers AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE99BE821B313D7300C8F4DE /* Day 4 Photo Bombers App */ = {
+			isa = PBXGroup;
+			children = (
+				EE99BE871B313D7300C8F4DE /* AppDelegate.h */,
+				EE99BE881B313D7300C8F4DE /* AppDelegate.m */,
+				EE99BE8A1B313D7300C8F4DE /* ViewController.h */,
+				EE99BE8B1B313D7300C8F4DE /* ViewController.m */,
+				EE99BEA91B31418D00C8F4DE /* PhotoCollectionViewCell.h */,
+				EE99BEAA1B31418D00C8F4DE /* PhotoCollectionViewCell.m */,
+				EE99BE8D1B313D7300C8F4DE /* Main.storyboard */,
+				EE99BE901B313D7300C8F4DE /* Images.xcassets */,
+				EE99BE921B313D7300C8F4DE /* LaunchScreen.xib */,
+				EE99BE831B313D7300C8F4DE /* Supporting Files */,
+			);
+			path = "Day 4 Photo Bombers App";
+			sourceTree = "<group>";
+		};
+		EE99BE831B313D7300C8F4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE99BEAC1B31448300C8F4DE /* 1.jpg */,
+				EE99BE841B313D7300C8F4DE /* Info.plist */,
+				EE99BE851B313D7300C8F4DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE99BE9C1B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE99BE9F1B313D7300C8F4DE /* Day_4_Photo_Bombers_AppTests.m */,
+				EE99BE9D1B313D7300C8F4DE /* Supporting Files */,
+			);
+			path = "Day 4 Photo Bombers AppTests";
+			sourceTree = "<group>";
+		};
+		EE99BE9D1B313D7300C8F4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE99BE9E1B313D7300C8F4DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE99BE7F1B313D7300C8F4DE /* Day 4 Photo Bombers App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE99BEA31B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers App" */;
+			buildPhases = (
+				EE99BE7C1B313D7300C8F4DE /* Sources */,
+				EE99BE7D1B313D7300C8F4DE /* Frameworks */,
+				EE99BE7E1B313D7300C8F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 4 Photo Bombers App";
+			productName = "Day 4 Photo Bombers App";
+			productReference = EE99BE801B313D7300C8F4DE /* Day 4 Photo Bombers App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE99BE981B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE99BEA61B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers AppTests" */;
+			buildPhases = (
+				EE99BE951B313D7300C8F4DE /* Sources */,
+				EE99BE961B313D7300C8F4DE /* Frameworks */,
+				EE99BE971B313D7300C8F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE99BE9B1B313D7300C8F4DE /* PBXTargetDependency */,
+			);
+			name = "Day 4 Photo Bombers AppTests";
+			productName = "Day 4 Photo Bombers AppTests";
+			productReference = EE99BE991B313D7300C8F4DE /* Day 4 Photo Bombers AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE99BE781B313D7300C8F4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sukhrat;
+				TargetAttributes = {
+					EE99BE7F1B313D7300C8F4DE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EE99BE981B313D7300C8F4DE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EE99BE7F1B313D7300C8F4DE;
+					};
+				};
+			};
+			buildConfigurationList = EE99BE7B1B313D7300C8F4DE /* Build configuration list for PBXProject "Day 4 Photo Bombers App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE99BE771B313D7300C8F4DE;
+			productRefGroup = EE99BE811B313D7300C8F4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE99BE7F1B313D7300C8F4DE /* Day 4 Photo Bombers App */,
+				EE99BE981B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE99BE7E1B313D7300C8F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99BE8F1B313D7300C8F4DE /* Main.storyboard in Resources */,
+				EE99BE941B313D7300C8F4DE /* LaunchScreen.xib in Resources */,
+				EE99BE911B313D7300C8F4DE /* Images.xcassets in Resources */,
+				EE99BEAD1B31448300C8F4DE /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99BE971B313D7300C8F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE99BE7C1B313D7300C8F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99BE8C1B313D7300C8F4DE /* ViewController.m in Sources */,
+				EE99BEAB1B31418D00C8F4DE /* PhotoCollectionViewCell.m in Sources */,
+				EE99BE891B313D7300C8F4DE /* AppDelegate.m in Sources */,
+				EE99BE861B313D7300C8F4DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE99BE951B313D7300C8F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE99BEA01B313D7300C8F4DE /* Day_4_Photo_Bombers_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE99BE9B1B313D7300C8F4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE99BE7F1B313D7300C8F4DE /* Day 4 Photo Bombers App */;
+			targetProxy = EE99BE9A1B313D7300C8F4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE99BE8D1B313D7300C8F4DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE99BE8E1B313D7300C8F4DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE99BE921B313D7300C8F4DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE99BE931B313D7300C8F4DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE99BEA11B313D7300C8F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE99BEA21B313D7300C8F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE99BEA41B313D7300C8F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE99BEA51B313D7300C8F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE99BEA71B313D7300C8F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 4 Photo Bombers AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 4 Photo Bombers App.app/Day 4 Photo Bombers App";
+			};
+			name = Debug;
+		};
+		EE99BEA81B313D7300C8F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 4 Photo Bombers AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 4 Photo Bombers App.app/Day 4 Photo Bombers App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE99BE7B1B313D7300C8F4DE /* Build configuration list for PBXProject "Day 4 Photo Bombers App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99BEA11B313D7300C8F4DE /* Debug */,
+				EE99BEA21B313D7300C8F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE99BEA31B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99BEA41B313D7300C8F4DE /* Debug */,
+				EE99BEA51B313D7300C8F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE99BEA61B313D7300C8F4DE /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE99BEA71B313D7300C8F4DE /* Debug */,
+				EE99BEA81B313D7300C8F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE99BE781B313D7300C8F4DE /* Project object */;
+}
