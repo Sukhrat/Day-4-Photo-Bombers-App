@@ -19,6 +19,8 @@
 		EE99BEAD1B31448300C8F4DE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE99BEAC1B31448300C8F4DE /* 1.jpg */; };
 		EEDBB3081B328B530011023A /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBB3071B328B530011023A /* PhotoController.m */; };
 		EEDBB30B1B3295660011023A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBB30A1B3295660011023A /* DetailViewController.m */; };
+		EEDBB30E1B32B3470011023A /* Present Detail Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBB30D1B32B3470011023A /* Present Detail Transition.m */; };
+		EEDBB3111B32B77B0011023A /* dismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBB3101B32B77B0011023A /* dismissDetailTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		EEDBB3071B328B530011023A /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		EEDBB3091B3295660011023A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
 		EEDBB30A1B3295660011023A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		EEDBB30C1B32B3470011023A /* Present Detail Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Present Detail Transition.h"; sourceTree = "<group>"; };
+		EEDBB30D1B32B3470011023A /* Present Detail Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Present Detail Transition.m"; sourceTree = "<group>"; };
+		EEDBB30F1B32B77B0011023A /* dismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dismissDetailTransition.h; sourceTree = "<group>"; };
+		EEDBB3101B32B77B0011023A /* dismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dismissDetailTransition.m; sourceTree = "<group>"; };
 		F0A4994209B2C547D9DE10F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +126,10 @@
 				EE99BE881B313D7300C8F4DE /* AppDelegate.m */,
 				EE99BE8A1B313D7300C8F4DE /* ViewController.h */,
 				EE99BE8B1B313D7300C8F4DE /* ViewController.m */,
+				EEDBB30F1B32B77B0011023A /* dismissDetailTransition.h */,
+				EEDBB3101B32B77B0011023A /* dismissDetailTransition.m */,
+				EEDBB30C1B32B3470011023A /* Present Detail Transition.h */,
+				EEDBB30D1B32B3470011023A /* Present Detail Transition.m */,
 				EE99BEA91B31418D00C8F4DE /* PhotoCollectionViewCell.h */,
 				EE99BEAA1B31418D00C8F4DE /* PhotoCollectionViewCell.m */,
 				EEDBB3091B3295660011023A /* DetailViewController.h */,
@@ -298,10 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE99BE8C1B313D7300C8F4DE /* ViewController.m in Sources */,
+				EEDBB30E1B32B3470011023A /* Present Detail Transition.m in Sources */,
 				EE99BEAB1B31418D00C8F4DE /* PhotoCollectionViewCell.m in Sources */,
 				EE99BE891B313D7300C8F4DE /* AppDelegate.m in Sources */,
 				EE99BE861B313D7300C8F4DE /* main.m in Sources */,
 				EEDBB3081B328B530011023A /* PhotoController.m in Sources */,
+				EEDBB3111B32B77B0011023A /* dismissDetailTransition.m in Sources */,
 				EEDBB30B1B3295660011023A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
