@@ -22,7 +22,7 @@
     } completion:^(BOOL finished) {
         [detailVC.view removeFromSuperview];
         [transitionContext completeTransition:YES];
-    }]
+    }];
 }
 
 @end

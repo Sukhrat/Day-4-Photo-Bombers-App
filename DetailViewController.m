@@ -9,7 +9,10 @@
 #import "DetailViewController.h"
 #import "PhotoController.h"
 @interface DetailViewController ()
+
 @property (nonatomic) UIImageView *imageView;
+
+@property (nonatomic) UIDynamicAnimator *animator;
 
 
 @end
@@ -32,7 +35,21 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    
+    UISnapBehavior *snap = [[UISnapBehavior alloc] initWithItem:self.imageView snapToPoint:self.view.center];
+    [self.animator addBehavior:snap];
+}
+
 - (void)close {
+    
+    [self.animator removeAllBehaviors];
+    UISnapBehavior*snap=[[UISnapBehavior alloc]initWithItem:self.imageView snapToPoint:CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds) + 180.f)];
+    [self.animator addBehavior:snap];
+    
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
