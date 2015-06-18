@@ -32,7 +32,6 @@
 /* Begin PBXFileReference section */
 		4C4EFB93CD278FBA404787E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9925AB4B1C76F9AD5C96768C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE6B184C1B317FA000160A46 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = podfile; path = "Day 4 Photo Bombers App/podfile"; sourceTree = "<group>"; };
 		EE99BE801B313D7300C8F4DE /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE99BE841B313D7300C8F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE99BE851B313D7300C8F4DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		EE99BE771B313D7300C8F4DE = {
 			isa = PBXGroup;
 			children = (
-				EE6B184C1B317FA000160A46 /* podfile */,
 				EE99BE821B313D7300C8F4DE /* Day 4 Photo Bombers App */,
 				EE99BE9C1B313D7300C8F4DE /* Day 4 Photo Bombers AppTests */,
 				EE99BE811B313D7300C8F4DE /* Products */,
